@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Cabecalho</header>
+    <div class="container">
+        <main>
+            <fieldset>Média consumo combustiveel</fieldset>
+            <div class="informacoes">
+            <ul>
+            <li>Vá até um posto de combustivel e zere o odômetro parcial  </li>
+            <li>Peça para encher o tanque do carro</li>
+            <li>Rode pelo menos 200 KM</li>
+            <li>Ao retornar ao posto, anote no formulario quantos quilomertros você percorreu</li>
+            <li>Peça para encher o tanque novamente</li>
+            <li>Veja quantos a quantidade de litros que foi adicionado</li>
+            <li>Adicione esta quantidade de litros no formulario</li>
+        </div>
+        </ul>
+            <form action="">
+                <label for="input">Digite KM rodados:</label>
+                <input type="text" id="input_km_rodado" name="input"><br>
+                <label for="input">Digite a qauntidade de litros:</label>
+                <input type="text" id="input" name="input"><br>
+
+                <p id="resultado"></p>
+                <button id="calcularMedia" type="button">Enviar</button>
+                
+            </form>
+        </main>
+    </div>
+    <footer>Rodapé</footer>
+    <script src="consumo_medio.js"></script>
+</body>
+</html>
